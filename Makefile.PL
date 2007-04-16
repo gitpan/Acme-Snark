@@ -4,4 +4,8 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'	=> 'Acme::Snark',
     'VERSION_FROM' => 'Snark.pm', # finds $VERSION
+    ($] >= 5.005 ?
+	(ABSTRACT => 'What I tell you three times is true',
+	AUTHOR => 'Alex Gough') : ()),
+    'LICENSE' => 'perl',
 );

@@ -2,7 +2,7 @@ package Acme::Snark;
 
 use strict;
 use vars qw($VERSION);
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 my %stash;
 
@@ -103,6 +103,8 @@ Fetch gets called far, far too many times, which is confusing.
 
 Alex Gough (alex@earth.li) - Go on, I feel lonely...
 
+Thanks to mstevens for getting the joke.
+
 =head1 SEE ALSO
 
 perl(1). Psychiatrist(8).
@@ -111,8 +113,11 @@ _Stand on Zanzibar_
 
 =head1 COPYRIGHT
 
-This module is Copyright (c) Alex Gough, 2001.  This is free software,
-you may use and redistribute this code under the same terms as perl
-itself.
+This module is Copyright (c) Alex Gough, 2001.
+
+=head1 LICENSE
+
+This is free software, you may use and redistribute this code under the
+same terms as perl itself.
 
 =cut
